@@ -146,7 +146,7 @@ header p b{
 }
 
 h1 span{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
     color: #141419;
     background: linear-gradient(to top, transparent 15%, #fb973b 15% 30%, transparent 30%);
@@ -176,8 +176,8 @@ h1 span{
 }
 
 .first_input input, .first_input button {
-    width: 240px;
-    height: 70px;
+    width: 150px;
+    height: 50px;
     font-size: 18px;
     font-family: "Times New Roman", serif;
 }
@@ -254,6 +254,7 @@ h1 span{
     padding: 5px 10px;
     cursor: pointer;
     transition: 0.3s;
+    background-color: #fff;
 }
 
 /* ADAPTIVE */
@@ -289,8 +290,8 @@ h1 span{
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
+.dropdown-content li:hover {
+    background-color: #fff;
 }
 .dropdown:hover .dropdown-content {
     display: block;
